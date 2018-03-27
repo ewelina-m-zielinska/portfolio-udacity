@@ -1,0 +1,127 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h4, p {
+    text-transform: uppercase;
+    color: #2d3c49;
+}
+
+h2 {
+    color: #b8b8ad;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.content {
+    width: 75%;
+}
+
+/*
+LEFT BOX
+*/
+
+.left-box {
+    width: 15%;
+    order: -1;
+    padding-top: 150px;
+}
+
+.color-code {
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+}
+
+.color-box {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+.first-color {
+    background-color: #02b3e4;
+}
+
+.second-color {
+    background-color: #2d3c49;
+}
+
+.third-color {
+    background-color: #7d97ad;
+}
+
+/*
+HEADER
+*/
+
+.header {
+    text-align: right;
+}
+
+.header>img {
+    max-width: 70px;
+    float: left;
+}
+
+hr {
+    border-color: #7d97ad;
+}
+
+/*
+MAIN PHOTO
+*/
+
+.main-photo {
+    max-height: 50vh;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+/*
+PROJECTS
+*/
+
+.projects-layout {
+    display: inline-flex;
+}
+
+.project-box {
+    width: 33.33%;
+    margin: 0 20px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.project-box>p {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 1px 1px;
+}
+
+.project-box>a {
+    font-size: 11px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #2d3c49;
+}
+
+.project-img {
+    height: 150px;
+}
+
+.project-img>img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
