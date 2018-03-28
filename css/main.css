@@ -1,8 +1,10 @@
 * {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
-h1, h4, p {
+h1,
+h3,
+h4 {
     text-transform: uppercase;
     color: #2d3c49;
 }
@@ -102,7 +104,7 @@ PROJECTS
     vertical-align: top;
 }
 
-.project-box>p {
+.project-box>h3 {
     font-size: 25px;
     font-weight: bold;
     margin: 10px 1px 1px;
